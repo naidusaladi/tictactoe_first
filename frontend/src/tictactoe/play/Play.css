@@ -1,0 +1,90 @@
+.playContainer{
+    width: 240px;
+    height:400px;
+    background-color: rgb(2, 19, 36);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0px 20px;
+    color:white;
+    box-sizing: border-box;
+
+}
+
+.playHeader{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-weight: 700;
+    cursor: pointer;
+    user-select: none;
+}
+
+.turn{
+    background-color: rgb(14, 31, 47);
+    padding: 4px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.4);
+}
+
+.playBoxes{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 200px;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.playBox{
+    height: 55px;
+    width: 55px;
+    background-color: rgb(14, 31, 47);
+    box-shadow: 0px 2px 4px rgba(0,0,0,0.6);
+    border-radius: 5px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+
+.scoresBoxes{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.scoreBox{
+   font-size: 10px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   width: 55px;
+   height: 35px;
+   border-radius: 5px;
+   color:black;
+   font-weight: 600;
+   cursor: pointer;
+   user-select: none;
+}
+
+.scoresBoxes .b1{
+    background-color: rgb(6, 179, 179);
+
+}
+
+.scoresBoxes .b2{
+    background-color: cadetblue;
+    
+}
+
+.scoresBoxes .b3{
+    background-color: orange;
+}
